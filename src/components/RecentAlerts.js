@@ -1,7 +1,7 @@
 import React from "react";
 
 const RecentAlerts = () => (
-  <div id="recent-alerts" class="area-notification">
+  <div id="recent-alerts" class="area-notification" style={{ paddingTop: '60px' }}>
     <p id="recent-alerts-title" class="area-notification-title">
       Recent alerts in your area
     </p>

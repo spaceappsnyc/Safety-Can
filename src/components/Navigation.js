@@ -1,6 +1,6 @@
 import React, { Component } from "react";
+import { Link } from 'react-router-dom';
 import {
-  Glyphicon,
   DropdownButton,
   ButtonToolbar,
   MenuItem,
@@ -48,12 +48,13 @@ class Navigation extends Component {
           <a onClick={this.handleToggleMenu}>
             <i className="fas fa-bars" />
           </a>
-          <a id="brand" href="#">
+          <Link to='/'><a id="brand" href="#">
             SafetyCan
-          </a>
+          </a></Link>
           <ButtonToolbar>
             <DropdownButton
               title={<i className="fas fa-user" />}
+              bsSize='large'
               noCaret
               id="dropdown-no-caret"
               pullRight

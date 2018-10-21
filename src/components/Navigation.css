@@ -1,8 +1,12 @@
 #navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-content: center;
   height: 60px;
+  background: #000;
 }
 
 #navbar a {

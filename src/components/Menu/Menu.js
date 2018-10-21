@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from 'react-router-dom';
 
 import "./Menu.css";
 
@@ -21,6 +22,9 @@ const Menu = props => {
           </li>
           <li>
             <a href="#">Checklist</a>
+          </li>
+          <li>
+            <Link to='/crisis'><a href="#">Crisis</a></Link>
           </li>
         </ul>
       </div>
