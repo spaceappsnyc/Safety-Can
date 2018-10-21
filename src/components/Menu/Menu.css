@@ -1,0 +1,43 @@
+#panel {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: #000;
+  height: 100vh;
+  width: 70vw;
+  z-index: 101;
+  transition: left 1s;
+}
+
+#panel ul {
+  padding-top: 30px;
+  text-align: left;
+  list-style-type: none;
+}
+
+#panel ul li {
+  margin-bottom: 10px;
+  font-size: 24px;
+}
+
+#panel ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+#shade {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: #000;
+  height: 100vh;
+  width: 100vw;
+  opacity: 0.5;
+  z-index: 100;
+}
+
+@media (min-width: 500px) {
+  #panel {
+    width: 40vw;
+  }
+}
