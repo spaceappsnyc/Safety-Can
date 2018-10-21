@@ -1,0 +1,128 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+#map {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  background: #000;
+  color: #333131;
+  font: "Roboto", sans-serif;
+}
+
+.menu-item {
+  color: #000;
+  font-size: 1.2em;
+}
+
+#collapse-btn {
+  cursor: pointer;
+  height: 50px;
+  border-right: 1px solid #b4b4b4;
+}
+
+.collapse-btn-line {
+  width: 25px;
+  height: 2px;
+  background: #000;
+}
+
+#title {
+  font-size: 2.5em;
+}
+
+#menu {
+  background: blue;
+  border: 1px #000 solid;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.menu-content {
+  border: 1px solid #b4b4b4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#family-icon-section {
+  position: relative;
+  display: inline-block;
+}
+
+#family-icon {
+  background-color: #4caf50;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+#family-icon-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+#family-icon:hover #family-icon-content {
+  display: block;
+}
+
+#location-bar {
+  padding: 0 3rem;
+  border: 1px #fff solid;
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.6em;
+}
+
+#location-bar-title {
+  margin: 0;
+}
+
+#map-content {
+  border: 1px #fff solid;
+  height: 300px;
+}
+
+.area-notification {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 2rem 0;
+  color: #fff;
+}
+
+.area-notification-title {
+  font-size: 2em;
+}
+
+.area-notification-list {
+  font-size: 1.4em;
+  padding: 0;
+}
+
+.area-notification-list-item {
+  margin: 1.3em 0;
+  list-style-type: none;
+}
+
+.form-section {
+  text-align: center;
+  margin: 10px;
+}
+
+.form-label {
+  margin-right: 10px;
+}
+
+.form-input {
+  border-radius: 5px;
+}

@@ -1,0 +1,34 @@
+#navbar {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  height: 60px;
+}
+
+#navbar a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  font-size: 32px;
+}
+
+#brand {
+  font-size: 24px;
+}
+
+.menu-item {
+  color: #000 !important;
+  font-size: 1.3rem !important;
+}
+
+.btn-group {
+  margin: 0;
+}
+
+.btn-toolbar {
+  margin: auto 10px;
+}
+
+.modal-title {
+  text-align: center;
+}
