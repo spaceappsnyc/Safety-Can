@@ -1,0 +1,27 @@
+.Crisis {
+  height: 100vh;
+  width: 100vw;
+  color: #fff;
+}
+
+.crisis-content {
+  width: 90vw;
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+@media (min-width: 500px) {
+  .crisis-content {
+    width: 60vw;
+  }
+}
+
+list-btn-group {
+  width: 100%;
+}
+
+list-btn {
+  width: 100%;
+}

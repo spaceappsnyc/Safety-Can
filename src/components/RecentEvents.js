@@ -6,6 +6,11 @@ const RecentEvents = () => (
       Recent events in your area
     </p>
     <ul class="area-notification-list">
+<<<<<<< HEAD
+      <li class="area-notification-list-item">California Fire</li>
+      <li class="area-notification-list-item">Hurricane Mario</li>
+      <li class="area-notification-list-item">Typhoon of the Ages</li>
+=======
       <li class="area-notification-list-item">
         3 homes destroyed by flooding in Queens
       </li>
@@ -15,6 +20,7 @@ const RecentEvents = () => (
       <li class="area-notification-list-item">
         2 car accidents due to snow storm in Brooklyn
       </li>
+>>>>>>> master
     </ul>
   </div>
 );

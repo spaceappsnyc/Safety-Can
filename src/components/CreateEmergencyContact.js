@@ -42,37 +42,62 @@ class CreateEmergencyContact extends Component {
     return (
       <div id="create-emergency-contact">
         <form>
+<<<<<<< HEAD
+          <div>
+            <label for="">Name</label>
+            <input
+              id="name-contact"
+=======
           <div class="form-section">
             <label class="form-label">Name</label>
             <input
               id="name-contact"
               class="form-input"
+>>>>>>> master
               type="text"
               onChange={this.handleNameChange}
               value={this.state.name}
             />
           </div>
+<<<<<<< HEAD
+          <div>
+            <label for="">Phone Number</label>
+            <input
+              id="phone-number-contact"
+=======
           <div class="form-section">
             <label class="form-label">Phone #</label>
             <input
               id="phone-number-contact"
               class="form-input"
+>>>>>>> master
               type="text"
               onChange={this.handlePhoneNumberChange}
               value={this.state.phoneNumber}
             />
           </div>
+<<<<<<< HEAD
+          <div>
+            <label for="">Email</label>
+            <input
+              id="email-contact"
+=======
           <div class="form-section">
             <label class="form-label">Email</label>
             <input
               id="email-contact"
               class="form-input"
+>>>>>>> master
               type="text"
               onChange={this.handleEmailChange}
               value={this.state.email}
             />
           </div>
+<<<<<<< HEAD
+          <div>
+=======
           <div class="form-section">
+>>>>>>> master
             <input
               id="submit-btn-2"
               type="button"

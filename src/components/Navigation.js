@@ -1,6 +1,11 @@
 import React, { Component } from "react";
+<<<<<<< HEAD
+import { Link } from 'react-router-dom';
+import {
+=======
 import {
   Glyphicon,
+>>>>>>> master
   DropdownButton,
   ButtonToolbar,
   MenuItem,
@@ -31,12 +36,22 @@ class Navigation extends Component {
     });
   };
 
+<<<<<<< HEAD
+  handleHideCreateMemberModal = () => {};
+
+=======
+>>>>>>> master
   handleCreateContactModal = () => {
     this.setState(prevState => {
       return { showCreateContactModal: !prevState.showCreateContactModal };
     });
   };
 
+<<<<<<< HEAD
+  handleHideCreateContactModal = () => {};
+
+=======
+>>>>>>> master
   render() {
     return (
       <React.Fragment>
@@ -44,12 +59,22 @@ class Navigation extends Component {
           <a onClick={this.handleToggleMenu}>
             <i className="fas fa-bars" />
           </a>
+<<<<<<< HEAD
+          <Link to='/'><a id="brand" href="#">
+            SafetyCan
+          </a></Link>
+          <ButtonToolbar>
+            <DropdownButton
+              title={<i className="fas fa-user" />}
+              bsSize='large'
+=======
           <a id="brand" href="#">
             SafetyCan
           </a>
           <ButtonToolbar>
             <DropdownButton
               title={<i className="fas fa-user" />}
+>>>>>>> master
               noCaret
               id="dropdown-no-caret"
               pullRight

@@ -10,7 +10,11 @@
 body {
   margin: 0;
   background: #000;
+<<<<<<< HEAD
+  color: #b4b4b4;
+=======
   color: #333131;
+>>>>>>> master
   font: "Roboto", sans-serif;
 }
 
@@ -97,7 +101,10 @@ body {
   flex-direction: column;
   align-items: center;
   margin: 2rem 0;
+<<<<<<< HEAD
+=======
   color: #fff;
+>>>>>>> master
 }
 
 .area-notification-title {
@@ -113,6 +120,8 @@ body {
   margin: 1.3em 0;
   list-style-type: none;
 }
+<<<<<<< HEAD
+=======
 
 .form-section {
   text-align: center;
@@ -126,3 +135,4 @@ body {
 .form-input {
   border-radius: 5px;
 }
+>>>>>>> master
