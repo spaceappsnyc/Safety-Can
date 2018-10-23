@@ -66,51 +66,92 @@ class CreateNewMember extends Component {
     return (
       <div id="create-new-member">
         <form>
+<<<<<<< HEAD
           <div>
             <label>Name</label>
             <input
               id="name-member"
+=======
+          <div class="form-section">
+            <label class="form-label">Name</label>
+            <input
+              id="name-member"
+              class="form-input"
+>>>>>>> master
               type="text"
               onChange={this.handleNameChange}
               value={this.state.name}
             />
           </div>
+<<<<<<< HEAD
           <div>
             <label>Phone Number</label>
             <input
               id="phone-number-member"
+=======
+          <div class="form-section">
+            <label class="form-label">Phone #</label>
+            <input
+              id="phone-number-member"
+              class="form-input"
+>>>>>>> master
               type="text"
               onChange={this.handlePhoneNumberChange}
               value={this.state.phoneNumber}
             />
           </div>
+<<<<<<< HEAD
           <div>
             <label>Email</label>
             <input
               id="email-member"
+=======
+          <div class="form-section">
+            <label class="form-label">Email</label>
+            <input
+              id="email-member"
+              class="form-input"
+>>>>>>> master
               type="email"
               onChange={this.handleEmailChange}
               value={this.state.email}
             />
           </div>
+<<<<<<< HEAD
           <div>
             <label>Age</label>
             <input
               id="age"
+=======
+          <div class="form-section">
+            <label class="form-label">Age</label>
+            <input
+              id="age"
+              class="form-input"
+>>>>>>> master
               type="number"
               onChange={this.handleAgeChange}
               value={this.state.age}
             />
           </div>
+<<<<<<< HEAD
           <div>
             <label>Has Special Needs?</label>
             <input
               type="radio"
               name="special-needs"
+=======
+          <div class="form-section">
+            <label class="form-label">Has Special Needs?</label>
+            <input
+              type="radio"
+              class="special-needs"
+>>>>>>> master
               value={this.state.hasSpecialNeeds}
             />Yes
             <input
               type="radio"
+<<<<<<< HEAD
               name="special-needs"
               value={this.state.hasSpecialNeeds}
             />No
@@ -119,12 +160,27 @@ class CreateNewMember extends Component {
             <label>Conditions</label>
             <input
               id="conditions"
+=======
+              class="special-needs"
+              value={this.state.hasSpecialNeeds}
+            />No
+          </div>
+          <div class="form-section">
+            <label class="form-label">Conditions</label>
+            <input
+              id="conditions"
+              class="form-input"
+>>>>>>> master
               type="text"
               onChange={this.handleConditionsChange}
               value={this.state.conditions}
             />
           </div>
+<<<<<<< HEAD
           <div>
+=======
+          <div class="form-section">
+>>>>>>> master
             <input
               id="submit-btn-1"
               onClick={() =>

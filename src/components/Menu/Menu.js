@@ -1,5 +1,8 @@
 import React from "react";
+<<<<<<< HEAD
 import { Link } from 'react-router-dom';
+=======
+>>>>>>> master
 
 import "./Menu.css";
 
@@ -23,9 +26,12 @@ const Menu = props => {
           <li>
             <a href="#">Checklist</a>
           </li>
+<<<<<<< HEAD
           <li>
             <Link to='/crisis'><a href="#">Crisis</a></Link>
           </li>
+=======
+>>>>>>> master
         </ul>
       </div>
       <div id="shade" onClick={props.toggler} />

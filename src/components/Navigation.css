@@ -1,12 +1,18 @@
 #navbar {
+<<<<<<< HEAD
   position: fixed;
   top: 0;
   width: 100%;
+=======
+>>>>>>> master
   display: flex;
   justify-content: space-between;
   align-content: center;
   height: 60px;
+<<<<<<< HEAD
   background: #000;
+=======
+>>>>>>> master
 }
 
 #navbar a {
@@ -24,3 +30,18 @@
   color: #000 !important;
   font-size: 1.3rem !important;
 }
+<<<<<<< HEAD
+=======
+
+.btn-group {
+  margin: 0;
+}
+
+.btn-toolbar {
+  margin: auto 10px;
+}
+
+.modal-title {
+  text-align: center;
+}
+>>>>>>> master
